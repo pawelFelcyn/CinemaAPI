@@ -1,0 +1,157 @@
+[
+  {
+    "FirstName": "too loooooooooooooooooooooooooooong",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName":  "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "too loooooooooooooooooooooooooooooooong",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "invalid",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "nie istnieje",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "2021-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Password": "Password123",
+    "ConfirmPassword": "Password123"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "short",
+    "ConfirmPassword": "short"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "",
+    "ConfirmPassword": ""
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01"
+  },
+  {
+    "FirstName": "Firstname",
+    "LastName": "LastName",
+    "Email": "email@email.com",
+    "RoleName": "Manager",
+    "Birthdate": "1990-01-01",
+    "Password": "Password123",
+    "ConfirmPassword": "bad"
+  }
+]

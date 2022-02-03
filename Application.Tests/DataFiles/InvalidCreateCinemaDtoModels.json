@@ -1,0 +1,180 @@
+[
+  {
+    "Name": "",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "too loooooooooooooooooooooooooooooooooooooooooooooong",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "invalid",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "123",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "aaaaaaaaa",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "Too loooooooooooooooooooooooooooooooooooooooooooooooong",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "Street": "Street",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "To loooooooooooooooooooooooooooooooooooooooooooooooong",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "PostalCode": "00-000"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street"
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": ""
+  },
+  {
+    "Name": "Name",
+    "Description": "Description",
+    "ContactEmail": "email@email.com",
+    "PhoneNumber": "999999999",
+    "City": "City",
+    "Street": "Street",
+    "PostalCode": "invalid"
+  },
+  {
+    "Title": "Title",
+    "Director": "Director",
+    "Description": "Description",
+    "FilmDuration": "02:0"
+  },
+  {
+    "Title": "Title",
+    "Director": "Director",
+    "Description": "Description",
+    "DateOfRelease": "",
+    "FilmDuration": "02:00"
+  }
+]
