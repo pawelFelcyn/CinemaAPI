@@ -20,11 +20,19 @@ public class ReservationsController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<Page<ReservationDto>> GetAll([FromRoute]int cinemaId, [FromRoute]int showingId, [FromQuery]ResourceQuery<Reservation> query)
+    public ActionResult<Page<ReservationDto>> GetAll([FromRoute] int cinemaId, [FromRoute] int showingId, [FromQuery] ResourceQuery<Reservation> query)
     {
         var page = _service.GetAll(cinemaId, showingId, query);
 
         return Ok(page);
+    }
+
+    [HttpGet("{reservationId}")]
+    public ActionResult<ReservationDto> GetById([FromRoute] int cinemaId, [FromRoute] int showingId, [FromRoute]int reservationId)
+    {
+        var reservation = _service.GetById(cinemaId, showingId, reservationId);
+
+        return Ok(reservation);
     }
 
     [HttpPost]

@@ -29,6 +29,8 @@ public static class DependencyInjection
         services.AddScoped<IAuthorizationHandler, CinemaOperationRequirementHandler>();
         services.AddScoped<IAuthorizationHandler, MovieOperationRequirementHandler>();
         services.AddScoped<IAuthorizationHandler, ShowingOperationRequirementHandler>();
+        services.AddScoped<IAuthorizationHandler, ReservationOperationRequirementHandler>();
+
         return services;
     }
 

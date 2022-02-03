@@ -27,3 +27,10 @@ public class ShowingNotFoundException : NotFoundExcpetion
     {
     }
 }
+
+public class ReservationNotFoundException : NotFoundExcpetion
+{
+    public ReservationNotFoundException() : base("Reservation with given id was not found in database")
+    {
+    } 
+}

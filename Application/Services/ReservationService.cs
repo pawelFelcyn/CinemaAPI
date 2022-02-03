@@ -52,7 +52,15 @@ public class ReservationService : IReservationService
 
     public ReservationDto GetById(int cinemaId, int showingId, int resrevationId)
     {
-        throw new NotImplementedException();
+        var reservation = _reservationRepository.GetById(cinemaId, showingId, resrevationId);
+
+        var authorisationResult = _authorizationService.AuthorizeAsync(_userContextService.User, reservation, new ReservationOperationRequirement()).Result;
+        if (!authorisationResult.Succeeded)
+        {
+            throw new CantGetReservationException();
+        }
+
+        return _mapper.Map<ReservationDto>(reservation);
     }
 
     public ReservationDto Create(int cinemaId, int showingId, CreateReservationDto dto)

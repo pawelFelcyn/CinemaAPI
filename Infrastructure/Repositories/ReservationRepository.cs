@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Exceptions;
 using Domain.Interfaces;
 using Domain.Models;
 using Infrastructure.Data;
@@ -29,7 +30,18 @@ public class ReservationRepository : IReservationRepository
 
     public Reservation GetById(int cinemaId, int showingId, int reservationId)
     {
-        throw new NotImplementedException();
+        var reservation = _dbContext?
+                          .Reservations?
+                          .Include(r => r.Showing.Movie)
+                          .Include(r => r.ReservedBy)
+                          .FirstOrDefault(r => r.ShowingId == showingId && r.Showing.CinemaId == cinemaId && r.Id == reservationId);
+
+        if (reservation == null)
+        {
+            throw new ReservationNotFoundException();
+        }
+
+        return reservation;
     }
 
     public Reservation Add(Reservation reservation)

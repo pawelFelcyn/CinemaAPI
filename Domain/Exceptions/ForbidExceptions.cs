@@ -55,3 +55,10 @@ public class CantGetReservationsException : ForbidException
     {
     }
 }
+
+public class CantGetReservationException : ForbidException
+{
+    public CantGetReservationException() : base("You are not authorized to get this reservation")
+    {
+    }
+}
